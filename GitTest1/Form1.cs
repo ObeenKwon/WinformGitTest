@@ -40,5 +40,15 @@ namespace GitTest1
             MessageBox.Show("Test");
             label1.Text = button3.Text;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            this.label1.Text = "체크박스!";
+        }
     }
 }
